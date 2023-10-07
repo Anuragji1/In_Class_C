@@ -1,0 +1,45 @@
+// Q.) Write A Program to display the table of S and show it an array in C language.
+
+#include<stdio.h>
+int main() {
+    int s[10]= {1,2,3,4,5,6,7,8,9,10};
+    
+    for(int i=0; i<10; i++) {
+        printf("%d*%d= %d\n", s[i], i+1, s[i]*(i+1));
+    }
+    printf("\n The table of S in an array is :");
+    for(int i=0; i<10; i++) {
+        printf("%d", s[i]);
+    }
+    printf("\n");
+    return 0;
+}
+
+// This line includes the stdio.h header file, which contains declarations for standard input/output functions.
+
+line declares the main() function, which is the entry point for all C programs.
+
+line declares an array named s of size 10 and initializes it with the values 1, 2, 3, ..., 10.
+
+This for loop iterates from 0 to 9 and prints the table of S to the console. The printf() function prints the following output for each iteration of the loop.
+
+For example, the first iteration of the loop will print the following output:
+
+1 * 1 = 1
+The second iteration of the loop will print the following output:
+
+2 * 2 = 4
+
+ printf("\n The table of S in an array is :");
+  for(int i=0; i<10; i++) {
+    printf("%d", s[i]);
+  }
+  printf("\n");
+
+
+This code prints the table of S stored in the s array to the console.
+
+ return 0;
+
+This line returns 0 from the main() function, which indicates that the program terminated successfully.
+
