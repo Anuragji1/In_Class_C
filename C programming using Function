@@ -1,0 +1,21 @@
+// Write a Program in C to find the multiplication of two numbers using functions.
+
+#include<stdio.h>
+
+int product(int, int); //fn declaration 
+void main(){
+	int num1, num2, result;
+	printf("Enter the 1st number\n");
+	scanf("%d", &num1);
+	printf("Enter the 2nd number\n");
+	scanf("%d", &num2);
+	
+	result= product(num1,num2);//funtion calling
+	printf("Product of %d and %d is %d", num1,num2, result);
+	getch();
+}
+
+int product(int num1, int num2){ //fn declaration
+	int result = num1*num2;
+	return result;
+}
