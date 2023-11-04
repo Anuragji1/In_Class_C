@@ -1,0 +1,22 @@
+// Write a Program to find the factorial of two number using functions.
+
+#include<stdio.h>
+
+int factorail(int);
+
+void main(){
+	int n, result;
+	printf("Enter Number");
+	scanf("%d", &n);
+	result= factorial(n); //
+	printf("Factorial of %d is %d", n, result);
+	getch();
+}
+
+int factorial(int num)
+{ int i, f=1;
+for(i=1; i<=num; i++)
+{ f= f*i;
+}
+return f;
+}
